@@ -8,7 +8,7 @@ machine learning, and with neural networks. Every model is compared against a si
 naive baseline so I can see if it actually adds anything.
 
 Author: Mohammadali Jaberi (244437). I am the only author. All the code and the answers
-are in one notebook: `TimeSeries_Template Mohammadali Jaberi 244437.ipynb`. The notebook
+are in one notebook: `stock_forecasting.ipynb`. The notebook
 is the BUAS template and I filled in the code and wrote the analysis for tasks 4.1 and 4.2.
 
 ## What it does
@@ -145,12 +145,12 @@ day. I only have one full random seed per model, so I did not measure run-to-run
    `NASDAQ100.csv`, `CrudeOil.csv`, `MacroEconomicIndicators.csv`, plus one CSV per ticker
    for the clustering) and reference figures from `Images_TS_Template/`. These folders are
    the BUAS course data and are not included in this repo, so you have to add them yourself.
-3. Open `TimeSeries_Template Mohammadali Jaberi 244437.ipynb` in Jupyter and run the cells
+3. Open `stock_forecasting.ipynb` in Jupyter and run the cells
    from top to bottom. The LSTM training (100 epochs) is the slowest part and is much
    faster with a GPU, but it runs on CPU too.
 
 ## Key files
 
-- `TimeSeries_Template Mohammadali Jaberi 244437.ipynb` - the full analysis, all code and answers.
+- `stock_forecasting.ipynb` - the full analysis, all code and answers.
 - `requirements.txt` - the Python packages.
 - `Data_TS_Template/`, `Images_TS_Template/` - data and reference figures, not committed.
